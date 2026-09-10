@@ -14,6 +14,7 @@ iree_lit_test_suite(
   NAME
     lit
   SRCS
+    "propagate_quantization_toward_contractions.mlir"
     "cleanup_numeric_narrowing.mlir"
     "conv2d_to_img2col.mlir"
     "convert_batch_matmul_to_matmul.mlir"
